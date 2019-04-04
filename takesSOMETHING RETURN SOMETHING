@@ -1,0 +1,7 @@
+def add(a,b):
+    s=a+b
+    return s
+print("Enter two number")
+x,y=eval(input())
+print("sum of two number is", add(x,y))
+ 

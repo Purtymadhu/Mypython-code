@@ -1,0 +1,5 @@
+def evenrec(n):
+    for x in range(2,n,2):
+        return x
+num=int(input("enter a number"))
+print(evenrec(num))
